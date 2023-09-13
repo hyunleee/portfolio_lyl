@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>Hyunlee&#39;s Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software
+    engineer Ellie"
+    />
+    <meta name="author" content="Ellie" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="현이의 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="배포후 생성된 URL" />
+    <meta property="og:image" content="배포후에 생성된 이미지 URL" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">Hyunlee</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" aria-label="navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <div class="home__container">
+          <img
+            class="home__avatar"
+            src="images/favicon.ico"
+            alt="Ellie's profile"
+          />
+          <h2 class="home__title">
+            Hello <br />I&#39;m
+            <strong class="home__title--strong">Software Engineer</strong>, Hyunlee
+          </h2>
+          <a class="home__contact" href="#contact">Contact Me</a>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="description">
+          I'm interested in Web3 and I'm going to study blockchain-based business model production and cyber security.
+
+
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML, CSS, JavaScript</p>
+          </li>
+        
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="images/university-logo.png" alt="university logo" />
+            <div>
+              <p class="job__name">SWU majoring in Cyber Security</p>
+              <p class="job__name">Transffered from Math to Cyber Security</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">My Skills</h2>
+        
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">Coding Skills</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>50%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 50%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Python</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>C</span><span>65%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 65%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>C++</span><span>68%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 68%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Etc</h3>
+              <ul>
+                <li>value Investment</li>
+                <li>Computer Algorithm</li>
+                <li>Math</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My work</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                All <span class="category__count">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="investment report">
+                Investment Report <span class="category__count">1</span>
+              </button>
+            </li>
+          
+          </ul>
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project1.webp"
+                  alt="project1"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="Investment Report">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="project2"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>Investment Report about S1</p>
+                </div>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <a class="arrow-up" href="#home" title="back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">Let&#39;s talk</h2>
+        <p class="description">gusdle794@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/hyunleee"
+              target="_blank"
+              title="my github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        
+        </ul>
+        <p>ⓒHyunlee - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
